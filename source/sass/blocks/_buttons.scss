@@ -1,0 +1,16 @@
+.button {
+  background-color: $color-primary;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-family: $font-display;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover,
+  &:focus {
+    background-color: $color-primary-dark;
+  }
+}
