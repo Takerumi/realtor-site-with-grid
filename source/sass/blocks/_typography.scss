@@ -17,7 +17,10 @@
 
 .heading-4 {
   @extend %heading;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
+  line-height: 1.7;
+  margin: 0;
+
   &--light {
     color: $color-grey-light-1;
   }
