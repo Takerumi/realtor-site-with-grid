@@ -349,3 +349,13 @@ template {
 [hidden] {
   display: none;
 }
+
+/**
+   * Custom
+   */
+
+dl,
+dt,
+dd {
+  margin: 0;
+}
