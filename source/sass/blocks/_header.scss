@@ -1,7 +1,6 @@
 .header {
   background-color: $color-grey-dark-1;
   grid-column: full-start / col-end 6;
-  justify-content: center;
 
   background-image: linear-gradient(
       rgba($color-secondary, 0.93),
@@ -17,6 +16,7 @@
   grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
   grid-template-columns: minmax(min-content, max-content);
   grid-row-gap: 1.5rem;
+  justify-content: center;
 
   &__logo {
     height: 3rem;
